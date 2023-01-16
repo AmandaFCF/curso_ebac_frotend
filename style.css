@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: #470a80;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+form, ul {
+    margin-top: 30px;
+    text-align: center;
+}
+
+input, button {
+    padding: 8px;
+    border: solid 1px #470a80;;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #470a80;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    text-decoration: none;
+}
+
+#completedItem {
+    text-decoration: line-through;
+}
